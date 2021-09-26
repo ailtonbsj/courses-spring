@@ -9,6 +9,8 @@ import { TodoService } from './todo.service';
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
+  todos: Todo[] = [];
+
   form: FormGroup = new FormGroup({
     description: new FormControl(''),
   });
@@ -16,10 +18,10 @@ export class AppComponent {
   constructor(private service: TodoService) {}
 
   submit() {
-    console.log(this.form.value);
     const todo: Todo = { ...this.form.value };
-    this.service
-      .salvar(todo)
-      .subscribe((savedTodo) => console.log(savedTodo));
+    this.service.salvar(todo).subscribe((savedTodo) => {
+      this.todos.push(savedTodo);
+      this.form.reset();
+    });
   }
 }
