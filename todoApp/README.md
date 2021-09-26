@@ -5,6 +5,12 @@
 ```
 # Create project with Angular routing and CSS stylesheet format
 ng new front
+
 cd front/
+
 ng serve --open
+
+npm install --save bootstrap
+
+ng generate service todo
 ```
