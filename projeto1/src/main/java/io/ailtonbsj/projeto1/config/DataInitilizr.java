@@ -28,18 +28,18 @@ public class DataInitilizr implements ApplicationListener<ContextRefreshedEvent>
 			createUser("Maria", "maria@gmail.com");
 			createUser("Jose", "jose@gmail.com");
 		}
-		
-		User user = userRepository.getById((long) 2);
-		System.out.println(user.getName());
+
+//		User user = userRepository.findById("2");
+//		System.out.println(user.getName());
 		// userRepository.delete(user);
-		
-		user = userRepository.findByName("Jose");
+
+		User user = userRepository.findByName("Jose");
 		System.out.println(user.getName());
-		
-		user = userRepository.findBySubtringName("oa");
-		System.out.println(user.getName());
+
+//		user = userRepository.findBySubtringName("oa");
+//		System.out.println(user.getName());
 	}
-	
+
 	private void createUser(String name, String email) {
 		User user = new User();
 		user.setEmail(email);
