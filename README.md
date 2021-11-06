@@ -9,7 +9,7 @@ This is the source code of all projects I did in courses of Spring. This courses
 ## Spring Framework 5 e Spring Boot 2
 ![](https://img.shields.io/badge/status-in%20progress-blue)
 
-> Folder: projeto1
+> Folder: framework5boot2
 
 An online course of Spring Framework 5 and Spring Boot 2 with Wildfly 11, Spring Data with Mongo and MySQL from [Udemy](https://www.udemy.com/course/spring-framework-5-spring-boot-2/).
 
