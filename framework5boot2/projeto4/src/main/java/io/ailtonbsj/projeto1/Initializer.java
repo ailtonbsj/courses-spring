@@ -42,6 +42,12 @@ public class Initializer implements ApplicationListener<ContextRefreshedEvent> {
 			System.out.println(user);
 		}
 		
+		User user = userRepository.findByNameIgnoreCase("joseph");
+		System.out.println(user);
+		
+		User byEmail = userRepository.findBySliceEmail("ary");
+		System.out.println(byEmail);
+		
 //		Role admin = new Role("Admin", StatusRole.ENABLE, Arrays.asList(add, show, list, patch, del));
 //		Role principal = new Role("Principal", StatusRole.ENABLE, Arrays.asList(add, show, list, patch));
 //		Role professor = new Role("Professor", StatusRole.ENABLE, Arrays.asList(add, show, list));
