@@ -1,11 +1,16 @@
 package io.ailtonbsj.projeto1.entity;
 
+import java.util.List;
+
+import javax.persistence.CascadeType;
 import javax.persistence.Entity;
 import javax.persistence.EnumType;
 import javax.persistence.Enumerated;
+import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.OneToMany;
 
 import io.ailtonbsj.projeto1.StatusRole;
 
@@ -20,13 +25,18 @@ public class Role {
 	@Enumerated(EnumType.STRING)
 	private StatusRole status;
 	
+	@OneToMany(cascade = CascadeType.PERSIST, fetch = FetchType.EAGER)
+	List<Functionality> functionalities;
+	
 	public Role() {
 	}
-	public Role(String name, StatusRole status) {
+	public Role(String name, StatusRole status, List<Functionality> functionalities) {
 		super();
 		this.name = name;
 		this.status = status;
+		this.functionalities = functionalities;
 	}
+
 	public Long getId() {
 		return id;
 	}
@@ -45,8 +55,16 @@ public class Role {
 	public void setStatus(StatusRole status) {
 		this.status = status;
 	}
+	public List<Functionality> getFunctionalities() {
+		return functionalities;
+	}
+	public void setFunctionalities(List<Functionality> functionalities) {
+		this.functionalities = functionalities;
+	}
+	
 	@Override
 	public String toString() {
-		return "Role [id=" + id + ", name=" + name + ", status=" + status + "]";
+		return name + "{" + functionalities + "}";
+		//return "Role [id=" + id + ", name=" + name + ", status=" + status + "]";
 	}
 }

@@ -1,12 +1,14 @@
 package io.ailtonbsj.projeto1.entity;
 
+import java.util.List;
+
 import javax.persistence.CascadeType;
 import javax.persistence.Entity;
 import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
-import javax.persistence.ManyToOne;
+import javax.persistence.OneToMany;
 
 @Entity
 public class User {
@@ -18,16 +20,16 @@ public class User {
 	
 	private String email;
 	
-	@ManyToOne
-	Role role;
+	@OneToMany(cascade = CascadeType.PERSIST, fetch = FetchType.EAGER)
+	List<Role> roles;
 	
 	public User() {
 	}
-	public User(String name, String email, Role role) {
+	public User(String name, String email, List<Role> roles) {
 		super();
 		this.name = name;
 		this.email = email;
-		this.role = role;
+		this.roles = roles;
 	}
 	public Long getId() {
 		return id;
@@ -47,10 +49,14 @@ public class User {
 	public void setEmail(String email) {
 		this.email = email;
 	}
-	public Role getRole() {
-		return role;
+	public List<Role> getRoles() {
+		return roles;
 	}
-	public void setRole(Role role) {
-		this.role = role;
+	public void setRoles(List<Role> roles) {
+		this.roles = roles;
+	}
+	@Override
+	public String toString() {
+		return "User [id=" + id + ", name=" + name + ", email=" + email + ", roles=" + roles + "]";
 	}
 }
