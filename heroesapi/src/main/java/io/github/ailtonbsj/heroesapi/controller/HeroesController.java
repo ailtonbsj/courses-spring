@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.*;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 
-import static io.github.ailtonbsj.heroesapi.constants.HeroesConstant.*;
+import static io.github.ailtonbsj.heroesapi.constants.HeroesConstant.HEROES_ENDPOINT_LOCAL;
 
 @RestController
 @Slf4j

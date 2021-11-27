@@ -6,8 +6,17 @@
 
 This is the source code of all projects I did in courses of Spring. This courses are videos in Udemy, books, youtube and tutoriais.
 
+## Criando seu gerenciador de super heróis da Marvel e da DC em uma API reativa com Spring Boot
+![](https://img.shields.io/badge/status-completed-brightgreen)
+
+> Folder: heroesapi
+
+This course is part of Digital Innovation One at bootcamp of TQI Java Developer.
+
+Creator: Kamila Santos
+
 ## Simplificando Projetos Java com o Spring Boot
-![](https://img.shields.io/badge/status-in%20progress-blue)
+![](https://img.shields.io/badge/status-completed-brightgreen)
 
 > Folder: dio-spring-marques
 
