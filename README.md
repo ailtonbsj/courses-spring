@@ -6,6 +6,15 @@
 
 This is the source code of all projects I did in courses of Spring. This courses are videos in Udemy, books, youtube and tutoriais.
 
+## Comece a aprender Spring Boot agora de forma prática!
+![](https://img.shields.io/badge/status-in%20progress-blue)
+
+> Folder: [bookstoremanager](bookstoremanager)
+
+Creating an REST API with Spring Boot and using Tests from [Udemy](https://www.udemy.com/course/comece-a-aprender-spring-boot-agora-de-forma-pratica/).
+
+Creator: Rodrigo Peleias
+
 ## Criando seu gerenciador de super heróis da Marvel e da DC em uma API reativa com Spring Boot
 ![](https://img.shields.io/badge/status-completed-brightgreen)
 
