@@ -6,6 +6,15 @@
 
 This is the source code of all projects I did in courses of Spring. This courses are videos in Udemy, books, youtube and tutoriais.
 
+## CRUD Angular + Spring
+![](https://img.shields.io/badge/status-in%20progress-blue)
+
+> Folder: [angular-spring-loiane](angular-spring-loiane)
+
+Creating a CRUD using Angular and Spring Boot from [loiane.training](https://loiane.training/curso/crud-angular-spring).
+
+Creator: Loiane
+
 ## Comece a aprender Spring Boot agora de forma prática!
 ![](https://img.shields.io/badge/status-in%20progress-blue)
 
