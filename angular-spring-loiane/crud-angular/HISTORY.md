@@ -12,4 +12,10 @@ ng g c courses/courses
 
 # ng generate interface
 ng g interface courses/model/course
+
+# ng generate module
+ng g m shared/app-material
+
+# ng generate service
+ng g s courses/services/courses
 ```
