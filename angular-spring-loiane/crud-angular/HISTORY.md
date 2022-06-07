@@ -18,4 +18,10 @@ ng g m shared/app-material
 
 # ng generate service
 ng g s courses/services/courses
+
+# ng generate module
+ng g m shared
+
+# ng generate component
+ng g c shared/components/error-dialog
 ```
