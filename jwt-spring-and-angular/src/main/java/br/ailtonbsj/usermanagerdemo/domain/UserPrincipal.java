@@ -1,4 +1,4 @@
-package domain;
+package br.ailtonbsj.usermanagerdemo.domain;
 
 import java.util.Collection;
 import java.util.stream.Collectors;

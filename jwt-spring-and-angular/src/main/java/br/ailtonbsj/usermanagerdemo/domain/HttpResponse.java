@@ -1,4 +1,4 @@
-package domain;
+package br.ailtonbsj.usermanagerdemo.domain;
 
 import org.springframework.http.HttpStatus;
 
