@@ -9,6 +9,8 @@ public class SecurityConstant {
     public static String FORBIDDEN_MESSAGE = "You need to log in to access this page";
     public static String ACCESS_DENIED_MESSAGE = "You dont have permission to access";
     public static String OPTIONS_HTTP_METHOD = "OPTIONS";
+    public static String DOMAIN_NAME = "Demo Corp";
+    public static String APPLICATION_NAME = "User manager";
     public static String[] PUBLIC_URLS = {
         "/user/login", "/user/register", "/user/resetpassword/**", "/user/image/**" };
 }
