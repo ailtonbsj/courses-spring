@@ -1,4 +1,4 @@
-package br.ailtonbsj.usermanagerdemo.exception;
+package br.ailtonbsj.usermanagerdemo.exception.domain;
 
 public class UsernameExistException extends Exception {
 
