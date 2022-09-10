@@ -6,9 +6,10 @@
 
 This is the source code of all projects I did in courses of Spring. This courses are videos in Udemy, books, youtube and tutoriais.
 
-| Tutorial             | Channel / Author   | Link                                 | Folder                         |
-|----------------------|--------------------|--------------------------------------|--------------------------------|
-| Filter - Spring Boot | Rodrigo Freitas    | [Here](https://youtu.be/0Vd_XOY_VxY) |[filter-freitas](filter-freitas)|
+| Tutorial                                           | Author        | Folder                         | Status                                                       |
+|----------------------------------------------------|---------------|--------------------------------|--------------------------------------------------------------|
+|[Filter - Spring Boot](https://youtu.be/0Vd_XOY_VxY)|Rodrigo Freitas|[filter-freitas](filter-freitas)|![](https://img.shields.io/badge/status-completed-brightgreen)|
+|[Hello World](https://youtu.be/FasCDiQVp3o)         |Michelli Brito |[hello-michelli](hello-michelli)|![](https://img.shields.io/badge/status-completed-brightgreen)|
 
 ## CRUD Angular + Spring
 ![](https://img.shields.io/badge/status-in%20progress-blue)
