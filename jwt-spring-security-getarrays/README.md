@@ -9,3 +9,7 @@
 - Devtools
 - Lombok
 - CommandLineRunner
+
+## References
+
+ - [GetArrays Git Repository](https://github.com/getarrays/userservice)
