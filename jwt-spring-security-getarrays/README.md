@@ -1,5 +1,5 @@
 # Spring Boot and Spring Security with JWT including Access and Refresh Tokens
-![](https://img.shields.io/badge/status-in%20progress-blue)
+![](https://img.shields.io/badge/status-completed-brightgreen)
 
 ## Features
 
@@ -9,6 +9,7 @@
 - Devtools
 - Lombok
 - CommandLineRunner
+- Auth0 JWT
 
 ## References
 
