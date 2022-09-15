@@ -8,9 +8,10 @@ This is the source code of all projects I did in courses of Spring. This courses
 
 | Tutorial                                               | Author        | Folder                                                       | Status                                                       |
 |----------------------------------------------------    |---------------|--------------------------------------------------------------|--------------------------------------------------------------|
-|[JWT with Spring Security](https://youtu.be/mYKf4pufQWA)|Get Arrays     |[jwt-spring-security-getarrays](jwt-spring-security-getarrays)|![](https://img.shields.io/badge/status-in%20progress-blue)   |
+|[JWT with Spring Security](https://youtu.be/mYKf4pufQWA)|Get Arrays     |[jwt-spring-security-getarrays](jwt-spring-security-getarrays)|![](https://img.shields.io/badge/status-completed-brightgreen)|
 |[Filter - Spring Boot](https://youtu.be/0Vd_XOY_VxY)    |Rodrigo Freitas|[filter-freitas](filter-freitas)                              |![](https://img.shields.io/badge/status-completed-brightgreen)|
 |[Hello World](https://youtu.be/FasCDiQVp3o)             |Michelli Brito |[hello-michelli](hello-michelli)                              |![](https://img.shields.io/badge/status-completed-brightgreen)|
+|[Angular Todo Project with Spring RestAPI](https://www.udemy.com/course/angular-10-spring-boot-com-deploy-no-heroku-e-github-pages/)|Dougllas Sousa|[angular-todo-spring-api-sousa](angular-todo-spring-api-sousa)|![](https://img.shields.io/badge/status-completed-brightgreen)|
 
 ## CRUD Angular + Spring
 ![](https://img.shields.io/badge/status-in%20progress-blue)
@@ -75,11 +76,3 @@ An online course of Spring Framework 5 and Spring Boot 2 with Wildfly 11, Spring
 
 Creator: Nataniel Paiva
 
-## Angular 10 + Spring Boot 2: Curso Rápido do Zero até a Nuvem
-![](https://img.shields.io/badge/status-completed-brightgreen)
-
-> Folder: [todoApp](todoApp)
-
-An online course of Spring Boot 2 with Angular 10 from [Udemy](https://www.udemy.com/course/angular-10-spring-boot-com-deploy-no-heroku-e-github-pages/).
-
-Creator: Dougllas Sousa
