@@ -1,4 +1,11 @@
-# History of commands
+# Introdução ao framework Spring Boot
+![](https://img.shields.io/badge/status-completed-brightgreen)
+
+This course is part of Digital Innovation One at bootcamp of TQI Java Developer.
+
+Creator: Rodrigo Peleias
+
+## History of commands
 
 ```bash
 # Running spring from terminal

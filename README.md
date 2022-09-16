@@ -10,8 +10,10 @@ This is the source code of all projects I did in courses of Spring. This courses
 |----------------------------------------------------    |---------------|--------------------------------------------------------------|--------------------------------------------------------------|
 |[JWT with Spring Security](https://youtu.be/mYKf4pufQWA)|Get Arrays     |[jwt-spring-security-getarrays](jwt-spring-security-getarrays)|![](https://img.shields.io/badge/status-completed-brightgreen)|
 |[Filter - Spring Boot](https://youtu.be/0Vd_XOY_VxY)    |Rodrigo Freitas|[filter-freitas](filter-freitas)                              |![](https://img.shields.io/badge/status-completed-brightgreen)|
+|Introduction to Spring and profiles|Rodrigo Peleias|[from-scratch-spring-dio](from-scratch-spring-dio)|![](https://img.shields.io/badge/status-completed-brightgreen)|
 |[Hello World](https://youtu.be/FasCDiQVp3o)             |Michelli Brito |[hello-michelli](hello-michelli)                              |![](https://img.shields.io/badge/status-completed-brightgreen)|
 |[Angular Todo Project with Spring RestAPI](https://www.udemy.com/course/angular-10-spring-boot-com-deploy-no-heroku-e-github-pages/)|Dougllas Sousa|[angular-todo-spring-api-sousa](angular-todo-spring-api-sousa)|![](https://img.shields.io/badge/status-completed-brightgreen)|
+|[Spring Framework 5 and Boot 2](https://www.udemy.com/course/spring-framework-5-spring-boot-2/)|Nataniel Paiva|[spring-framework-and-boot-paiva](spring-framework-and-boot-paiva)|![](https://img.shields.io/badge/status-completed-brightgreen)|
 
 ## CRUD Angular + Spring
 ![](https://img.shields.io/badge/status-in%20progress-blue)
@@ -49,15 +51,6 @@ This course is part of Digital Innovation One at bootcamp of TQI Java Developer.
 
 Creator: Renan Marques
 
-## Introdução ao framework Spring Boot
-![](https://img.shields.io/badge/status-completed-brightgreen)
-
-> Folder: [dio-spring](dio-spring)
-
-This course is part of Digital Innovation One at bootcamp of TQI Java Developer.
-
-Creator: Rodrigo Peleias
-
 ## RESTful Web Services with Spring Framework - A quick start
 ![](https://img.shields.io/badge/status-in%20progress-blue)
 
@@ -66,13 +59,3 @@ Creator: Rodrigo Peleias
 A quick start to building your REST API with Spring Boot and Spring MVC from [Udemy](https://www.udemy.com/course/restful-web-services-with-spring-framework-a-quick-start/).
 
 Creator: Sergey Kargopolov
-
-## Spring Framework 5 e Spring Boot 2
-![](https://img.shields.io/badge/status-completed-brightgreen)
-
-> Folder: [framework5boot2](framework5boot2)
-
-An online course of Spring Framework 5 and Spring Boot 2 with Wildfly 11, Spring Data with Mongo and MySQL from [Udemy](https://www.udemy.com/course/spring-framework-5-spring-boot-2/).
-
-Creator: Nataniel Paiva
-
