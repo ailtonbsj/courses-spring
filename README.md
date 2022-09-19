@@ -8,6 +8,7 @@ This is the source code of all projects I did in courses of Spring. This courses
 
 | Tutorial                                               | Author        | Folder                                                       | Status                                                       |
 |----------------------------------------------------    |---------------|--------------------------------------------------------------|--------------------------------------------------------------|
+|[OAuth2 Login with Google](https://youtu.be/ug_89Gx0Ow8)|Tech Tutor|[oauth2-google-login-spring](oauth2-google-login-spring)|![](https://img.shields.io/badge/status-completed-brightgreen)|
 |[OAuth2 with Spring Security](https://youtu.be/UsM2BY20Ux4)|AlgaWorks|[oauth2-spring-algaworks](oauth2-spring-algaworks)|![](https://img.shields.io/badge/status-completed-brightgreen)|
 |[JWT with Spring Security](https://youtu.be/mYKf4pufQWA)|Get Arrays     |[jwt-spring-security-getarrays](jwt-spring-security-getarrays)|![](https://img.shields.io/badge/status-completed-brightgreen)|
 |[Filter - Spring Boot](https://youtu.be/0Vd_XOY_VxY)    |Rodrigo Freitas|[filter-freitas](filter-freitas)                              |![](https://img.shields.io/badge/status-completed-brightgreen)|
