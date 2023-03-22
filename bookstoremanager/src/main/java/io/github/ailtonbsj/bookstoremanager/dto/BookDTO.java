@@ -1,16 +1,14 @@
 package io.github.ailtonbsj.bookstoremanager.dto;
 
-import io.github.ailtonbsj.bookstoremanager.entity.Author;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.NotNull;
+import jakarta.validation.constraints.Pattern;
+import jakarta.validation.constraints.Size;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-
-import javax.validation.Valid;
-import javax.validation.constraints.NotBlank;
-import javax.validation.constraints.NotNull;
-import javax.validation.constraints.Pattern;
-import javax.validation.constraints.Size;
 
 @Data
 @Builder
@@ -32,7 +30,7 @@ public class BookDTO {
     @NotBlank
     @Size(max = 100)
     @Pattern(regexp = "(?:ISBN(?:-10)?:? )?(?=[0-9X]{10}$|(?=(?:[0-9]+[- ]){3})[- 0-9X]{13}$)[0-9]{1,5}[- ]?[0-9]+[- ]?[0-9]+[- ]?[0-9X]$",
-                message = "ISBN format must be a valid format")
+            message = "ISBN format must be a valid format")
     private String isbn;
 
     @NotBlank
@@ -41,5 +39,5 @@ public class BookDTO {
 
     @Valid
     @NotNull
-    private Author author;
+    private AuthorDTO author;
 }

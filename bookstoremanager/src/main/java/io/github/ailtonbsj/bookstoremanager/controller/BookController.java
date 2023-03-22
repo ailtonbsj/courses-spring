@@ -3,17 +3,15 @@ package io.github.ailtonbsj.bookstoremanager.controller;
 import io.github.ailtonbsj.bookstoremanager.dto.BookDTO;
 import io.github.ailtonbsj.bookstoremanager.dto.MessageResponseDTO;
 import io.github.ailtonbsj.bookstoremanager.entity.Book;
-import io.github.ailtonbsj.bookstoremanager.repository.BookRepository;
+import io.github.ailtonbsj.bookstoremanager.exception.BookNotFoundException;
 import io.github.ailtonbsj.bookstoremanager.service.BookService;
+import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-
-import javax.validation.Valid;
 
 @RestController
 @RequestMapping("/api/v1/books")
 public class BookController {
-
     private BookService bookService;
 
     @Autowired
@@ -27,7 +25,7 @@ public class BookController {
     }
 
     @GetMapping("/{id}")
-    public BookDTO findById(@PathVariable Long id) {
+    public BookDTO findById(@PathVariable Long id) throws BookNotFoundException {
         return bookService.findById(id);
     }
 }
